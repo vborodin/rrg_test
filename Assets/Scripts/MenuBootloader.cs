@@ -10,7 +10,13 @@ namespace RRGTest {
         private GameObject buttonPrefab;
         [SerializeField]
         private Transform contentHolder;
+        [SerializeField]
+        private GameScore gameScore;
         #pragma warning restore 0649
+
+        private void Awake() {
+            AppContext.gameScore = this.gameScore;
+        }
 
         private void Start() {
             var planets = Resources.LoadAll("PlanetData", typeof(PlanetData));

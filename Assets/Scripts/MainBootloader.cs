@@ -20,7 +20,6 @@ namespace RRGTest {
             cam.backgroundColor = AppContext.PlanetData.planetColor;
             Physics2D.gravity = AppContext.PlanetData.gravity;
             Instantiate(ball, spawnPosition.position, Quaternion.identity);
-            Debug.Log($"{AppContext.PlanetData.planetName}");
         }
     }
 }
