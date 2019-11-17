@@ -8,6 +8,8 @@ namespace RRGTest {
         private Camera cam;
         [SerializeField]
         private GameObject ball;
+        [SerializeField]
+        private Transform spawnPosition;
         #pragma warning restore 0649
 
         private void Awake() {
@@ -17,7 +19,7 @@ namespace RRGTest {
             }
             cam.backgroundColor = AppContext.PlanetData.planetColor;
             Physics2D.gravity = AppContext.PlanetData.gravity;
-            Instantiate(ball);
+            Instantiate(ball, spawnPosition.position, Quaternion.identity);
             Debug.Log($"{AppContext.PlanetData.planetName}");
         }
     }
