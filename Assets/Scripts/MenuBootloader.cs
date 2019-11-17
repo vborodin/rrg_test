@@ -15,6 +15,7 @@ namespace RRGTest {
             var planets = Resources.LoadAll("PlanetData", typeof(PlanetData));
             foreach (PlanetData p in planets) {
                 var b = Instantiate(buttonPrefab);
+                b.name = $"{p.planetName}Button";
                 b.transform.SetParent(contentHolder, false);
                 b.GetComponentInChildren<Text>().text = p.planetName;
             }
