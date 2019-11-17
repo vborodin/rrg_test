@@ -90,6 +90,7 @@ GameObject:
   - component: {fileID: 8194424491277303369}
   - component: {fileID: 8194424491277303368}
   - component: {fileID: 8194424491277303371}
+  - component: {fileID: 3447513385141231109}
   m_Layer: 5
   m_Name: MenuButton
   m_TagString: Untagged
@@ -216,3 +217,16 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &3447513385141231109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8194424491277303414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3177394c34e2c3544b0fd9fa123b594b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetData: {fileID: 0}

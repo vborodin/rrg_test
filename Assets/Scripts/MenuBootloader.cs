@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using RRGTest.Planets;
+using RRGTest.UI;
 
 namespace RRGTest {
     public class MenuBootloader : MonoBehaviour {
@@ -18,6 +19,7 @@ namespace RRGTest {
                 b.name = $"{p.planetName}Button";
                 b.transform.SetParent(contentHolder, false);
                 b.GetComponentInChildren<Text>().text = p.planetName;
+                b.GetComponent<MenuButton>().planetData = p;
             }
         }
     }
