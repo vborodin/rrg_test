@@ -5,5 +5,9 @@ namespace RRGTest.Planets {
     public class PlanetData : ScriptableObject {
         [SerializeField]
         public string planetName = "Default";
+        [SerializeField]
+        public Color planetColor = Color.yellow;
+        [SerializeField]
+        public Vector2 gravity = new Vector2();
     }
 }

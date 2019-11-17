@@ -13,3 +13,5 @@ MonoBehaviour:
   m_Name: EarthPlanetData
   m_EditorClassIdentifier: 
   planetName: Earth
+  planetColor: {r: 0.43040225, g: 0.7409994, b: 0.9811321, a: 1}
+  gravity: {x: 0, y: -9.8}

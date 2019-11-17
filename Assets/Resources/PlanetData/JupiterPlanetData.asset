@@ -13,3 +13,5 @@ MonoBehaviour:
   m_Name: JupiterPlanetData
   m_EditorClassIdentifier: 
   planetName: Jupiter
+  planetColor: {r: 1, g: 0.44056287, b: 0.015686274, a: 1}
+  gravity: {x: 0, y: -24.5}
